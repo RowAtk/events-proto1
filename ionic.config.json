@@ -1,0 +1,7 @@
+{
+  "name": "events-proto1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
