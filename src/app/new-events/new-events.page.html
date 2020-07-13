@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>New Event</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form action="">
+    <ion-item>
+      <ion-label position="stacked" color="primary">Event Name</ion-label>
+      <ion-input type="text" placeholder="enter name" name="event-name"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" color="primary">Event Title</ion-label>
+      <ion-input type="text" placeholder="enter title"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" color="primary">Category</ion-label>
+      <ion-select value="" placeholder="Select Category">
+        <ion-select-option value="party">Party</ion-select-option>
+        <ion-select-option value="wedding">Wedding</ion-select-option>
+        <ion-select-option value="conference">Conference</ion-select-option>
+        <ion-select-option value="sporting">Sporting</ion-select-option>
+        <ion-select-option value="competition">Competition</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" color="primary">Start Date</ion-label>
+      <ion-datetime display-format="DD.MM.YYYY HH:mm" placeholder="Select Date"></ion-datetime>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" color="primary">End Date</ion-label>
+      <ion-datetime display-format="DD.MM.YYYY HH:mm" placeholder="Select Date"></ion-datetime>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" color="primary">Description</ion-label>
+      <ion-textarea type="text" placeholder="write a description for your event"></ion-textarea>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" color="primary">Venue</ion-label>
+      <ion-input type="text" placeholder="where is your event?"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" color="primary">Flyer</ion-label>
+      <ion-input type="file" accept="jpg,png,jpeg" placeholder="Upload a graphic"></ion-input>
+    </ion-item>
+  </form>
+</ion-content>
